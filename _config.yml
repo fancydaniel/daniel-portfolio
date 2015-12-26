@@ -1,0 +1,3 @@
+markdow: redcarpet
+baseurl: /daniel-portfolio
+exclude: ['README.md']
