@@ -3,20 +3,23 @@
 <head>
   <title>Daniel's Portfolio</title>
   <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+
 </head>
 <body>
 
   <header>
     <h1>Daniel's Portfolio</h1>
-    {% include nav.html %}
+    {% include nav.html navclass='nav-top' %}
   </header>
 
   {{content}}
 
+
   <footer>
-    {% include nav.html %}
+    {% include nav.html navclass='nav-bottom' %}
     <p>&#169; Daniel Uribe</p>
   </footer>
+
 
 </body>
 </html>

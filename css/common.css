@@ -9,3 +9,18 @@ html {
   background-color: #000531;
   color: #fff;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  display: inline-block;
+
+}
+
+.nav-top {
+  font-size: 1.25rem;
+}
+
